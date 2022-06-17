@@ -4,6 +4,11 @@
 
 h1 {
     font-family: "Montserrat-Black";
+    font-weight: 700;
     size: 3rem;
     line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
 }
