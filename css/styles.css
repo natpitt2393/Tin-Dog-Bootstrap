@@ -13,6 +13,17 @@ p {
     color: #8f8f8f;
 }
 
+/* color sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
 /* containers */
 
 .container-fluid {
@@ -43,8 +54,6 @@ p {
 /* title section */
 
 #title {
-    background-color: #ff4c68;
-    color: white;
     text-align: left;
 }
 
@@ -95,10 +104,6 @@ p {
 
 .feature-box {
     padding: 5%;
-}
-
-.why {
-    color: #8f8f8f;
 }
 
 .icon:hover {
@@ -153,9 +158,6 @@ p {
 
 /* call to action section */
 
-#cta {
-    background-color: #ff4c68;
-}
 
 .find-true {
     font-family: "Montserrat-Black";
@@ -165,10 +167,6 @@ p {
 }
 
 /* footer section with social media */
-
-#footer {
-    background-color: #fff;
-}
 
 .icon-2 {
     margin: 3% 2%;
