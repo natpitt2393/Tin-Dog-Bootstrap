@@ -20,13 +20,23 @@ h2 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: 900;
+}
+
 .container-fluid {
     padding: 3% 15%;
+}
+
+.positioning {
+    position: relative;
 }
 
 .rotated {
     transform: rotate(25deg);
     width: 60%;
+    position: absolute;
 }
 
 .navbar {
@@ -58,15 +68,13 @@ h2 {
 }
 
 
-h3 {
-    font-family: "Montserrat-Bold";
-    font-weight: 900;
-}
-
 
 #features {
     font-size: 1.5rem;
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
