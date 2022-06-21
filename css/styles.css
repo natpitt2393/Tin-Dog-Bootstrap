@@ -125,3 +125,42 @@ h3 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .rotated {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.find-true {
+    padding: 7% 15%;
+    font-family: "Montserrat-Black";
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%
+}
+
+.icon-2 {
+    margin: 3% 2%;
+}
+
+.icon-2:hover {
+    color: #ff4c68;
+}
